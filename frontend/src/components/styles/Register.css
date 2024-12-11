@@ -1,0 +1,91 @@
+/* Styles for Register.js */
+
+.register-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.register-container h1 {
+  color: #806a51;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.register-container form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.register-container input {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 18px;
+  padding: 12px;
+  transition: border-color 0.3s ease;
+  width: 80%;
+}
+
+.register-container input:focus {
+  border-color: #666;
+  outline: none;
+}
+
+/* Button Styling */
+.register-container button {
+  background-color: #556b2f;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+  width: 40%;
+}
+
+.register-container button:hover {
+  background-color: #273e14;
+}
+
+/* Message Styling */
+.register-container p {
+  color: #ff6347;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .register-container {
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .register-container h1 {
+    font-size: 24px;
+  }
+
+  .register-container input,
+  button {
+    padding: 10px;
+  }
+}

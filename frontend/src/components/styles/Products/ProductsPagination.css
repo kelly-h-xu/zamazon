@@ -1,0 +1,13 @@
+.product-page .pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  /*position at end of flex container*/
+  /* Adjust space above product cards */
+}
+
+.product-page .pagination * {
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: bold !important;
+}

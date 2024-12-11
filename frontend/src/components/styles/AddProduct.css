@@ -1,0 +1,128 @@
+.add-product-container {
+  max-width: 600px;
+  margin: 60px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fefefe;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  box-sizing: border-box;
+}
+
+.add-product-container h1 {
+  color: #806a51;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+.add-product-container p {
+  color: #666;
+  font-style: italic;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.add-product-container .back-button {
+  align-self: flex-start;
+  background-color: #a14141;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  align-self: center;
+}
+
+.add-product-container .back-button:hover {
+  background-color: #8c3232;
+}
+
+.add-product-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+#item-add-prod-description {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  line-height: 1.5;
+  height: calc(1.5em * 4);
+  resize: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.add-product-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.add-product-container ul li {
+  margin-bottom: 15px;
+}
+
+.add-product-container label {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-product-container input,
+.add-product-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.add-product-container input:focus,
+.add-product-container select:focus {
+  border-color: #4579b0;
+  outline: none;
+  box-shadow: 0 0 5px rgba(69, 121, 176, 0.5);
+}
+
+.add-product-container .submit-button {
+  background-color: #4579b0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-wrap: nowrap;
+  align-self: center;
+}
+
+.add-product-container .submit-button:hover {
+  background-color: #316295;
+}
+
+.add-prod-button-container {
+  display: flex;
+  align-self: center;
+  gap: 36px;
+}

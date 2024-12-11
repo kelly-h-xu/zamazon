@@ -1,0 +1,214 @@
+.product-page-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.product-detail-page {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+  width: 80%;
+}
+
+.product-detail-page .product-details,
+.product-detail-page .seller-listings {
+  width: calc(47.5%);
+}
+
+.product-detail-page h2,
+.parent-reviews-container h2 {
+  color: #806a51;
+  font-size: 1.5em;
+  margin: 0 0 3px 0;
+}
+
+.parent-reviews-container h3 {
+  color: #3a5230;
+  margin: 0 0 3px 0;
+}
+
+.product-detail-page .product-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-detail-page .product-info {
+  margin: 0;
+}
+
+.product-page-container h1 {
+  font-size: 1.7rem;
+}
+.product-page-container p {
+  font-size: 1rem;
+}
+
+.product-page-container .back-button {
+  align-items: center;
+  align-self: flex-start;
+  background-color: #4579b0;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.product-page-container .back-button h4 {
+  font-size: 1.4em;
+  margin: 3px 0;
+}
+
+.product-page-container .back-button:hover {
+  background-color: #2f5b8b;
+}
+
+.icon {
+  margin-right: 5px;
+
+  /* Add space between icon and text */
+}
+
+.product-detail-page img {
+  border-radius: 8px;
+  height: 50px;
+  object-fit: contain;
+  width: auto;
+}
+
+.product-detail-info .rating-container {
+  align-items: center;
+  align-items: center;
+  display: flex;
+  height: fit-content;
+
+  /* Vertically align the text and stars */
+}
+
+.product-detail-info .avg-rating-text {
+  color: #888;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.product-detail-info .total-reviews-text {
+  color: #085e07;
+  font-size: 1rem;
+  margin-left: 40px;
+}
+
+.product-detail-info .stars-display {
+  color: #ffbf00;
+  color: #ffbf00;
+  font-size: 3rem;
+  margin-right: 10px;
+  padding: 0px;
+
+  /* Optional: Adjust star color */
+}
+
+.product-detail-info {
+  flex: 1.5;
+  margin-right: 7%;
+
+  /* Let the details section take up 2 parts of the available space */
+}
+
+.product-detail-page .listings-border {
+  border-color: #8dc365;
+  border-radius: 15px;
+  border-style: dashed;
+  border-width: 2px;
+  flex: 1;
+  max-height: 1000px;
+  overflow-y: scroll;
+  padding: 10px;
+
+  /* Let the listings section take up 1 part of the available space */
+  /* Optional: Add a light background */
+}
+
+.product-detail-page .listing-card {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  justify-content: space-between;
+  margin: 2%;
+  overflow: hidden;
+  padding: 10px;
+  transition: transform 0.2s;
+
+  /* width: 300px; */
+}
+
+.product-detail-page .listing-card button {
+  box-shadow: none;
+}
+
+.product-detail-page .listing-card h3 {
+  margin: 0 0 3px 0;
+}
+
+.product-detail-page .listing-card a {
+  color: #4579b0;
+  text-decoration: none;
+}
+
+.product-detail-page .listing-card h4 {
+  font-size: 0.8em;
+  margin: 3px 0;
+}
+
+.product-page-container .parent-reviews-container {
+  width: 80%;
+}
+.product-page-container .reviews-section-container {
+  display: flex;
+}
+
+.reviews-section-container .product-card:first-of-type {
+  margin-top: 0;
+}
+
+.product-page-container .review-divider {
+  background-color: #806a51;
+  border: none;
+  height: 2px;
+  height: 2px;
+  width: 100%;
+}
+
+.review-elements-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  padding: 20px 0 20px 20px;
+}
+
+.rating-summary-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 0.4;
+  height: fit-content;
+  margin-top: 2%;
+  min-width: 20%;
+  padding: 20px;
+}

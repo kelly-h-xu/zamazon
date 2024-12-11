@@ -1,0 +1,195 @@
+/* Styles for ProfileInformation.js */
+
+/* profile info component */
+.profile-info {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 0 15px 0;
+  min-width: fit-content;
+  padding: 15px;
+  width: 100%;
+
+  /* bottom margin */
+}
+
+/* .profile-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
+
+/* list items */
+.profile-info li {
+  font-size: 16px;
+  padding: 6px;
+
+  /* margin: 10px 0; */
+}
+
+.profile-info .profile-data {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 5px;
+  max-width: 450px;
+  white-space: normal;
+}
+
+.profile-info .profile-data:last-of-type {
+  margin: 10px 0 4px 0;
+}
+
+.profile-info .profile-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* contrasting text */
+.profile-info span {
+  color: #556b2f;
+  font-weight: bold;
+}
+
+/* style labels */
+.profile-info li:first-child {
+  margin-top: 0;
+}
+
+/* style data */
+.profile-info li:last-child {
+  color: #273e14;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.profile-info li:last-child:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* pencil button */
+.profile-info .edit-button {
+  height: 1em;
+  object-fit: contain;
+  width: auto;
+}
+
+/* hover over pencil */
+.profile-info .edit-button:hover {
+  cursor: pointer;
+}
+
+.profile-info input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #555;
+  font-size: 0.9em;
+  height: 100%;
+  margin-top: 8px;
+  padding: 4px;
+  transition: border-color 0.3s ease;
+  width: fit-content;
+}
+
+.profile-info .confirmation-buttons,
+.profile-info .transaction-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 2px;
+}
+
+.profile-info .save-button {
+  background-color: #4579b0;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7em;
+  font-weight: bold;
+  min-width: 70px;
+  padding: 6px;
+  text-align: center;
+  width: fit-content;
+}
+
+.profile-info .cancel-button {
+  background-color: #a14141;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7em;
+  font-weight: bold;
+  min-width: 70px;
+  padding: 6px;
+  text-align: center;
+  width: fit-content;
+}
+
+.profile-info .withdraw-button,
+.profile-info .deposit-button,
+.profile-info .confirm-button {
+  background-color: #4579b0;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7em;
+  font-weight: bold;
+  min-width: 70px;
+  padding: 6px;
+  text-align: center;
+  width: fit-content;
+}
+
+.profile-info .trans-cancel-button {
+  background-color: #a14141;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7em;
+  font-weight: bold;
+  min-width: 70px;
+  padding: 6px;
+  text-align: center;
+  width: fit-content;
+}
+
+.profile-info .save-button:hover {
+  background-color: #2f4c6b;
+  cursor: pointer;
+}
+
+.profile-info .cancel-button:hover {
+  background-color: #6b2f2f;
+  cursor: pointer;
+}
+
+.profile-info .pw-input:first-child {
+  margin: 10px 0 0 0;
+}
+
+.profile-info .pw-input {
+  margin: 0;
+}
+
+.profile-info .uid {
+  font-size: 0.6em;
+  font-style: italic;
+  margin: 0;
+  padding: 6px;
+}
+
+.profile-info .transaction-input input {
+  margin-bottom: 8px;
+}
+
+.profile-info .transaction-input {
+  display: flex;
+  flex-direction: column;
+}

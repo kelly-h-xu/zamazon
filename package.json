@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-currency-input-field": "^3.9.0",
+    "reactjs-popup": "^2.0.6",
+    "source-map-loader": "^5.0.0"
+  }
+}

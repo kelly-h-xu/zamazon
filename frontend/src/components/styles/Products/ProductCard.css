@@ -1,0 +1,125 @@
+/* General card container styling */
+.product-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* width: 300px; */
+  margin: 2%;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.listing-card {
+  background-color: #F6ECDD;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* width: 300px; */
+  margin: 2%;
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+/* Image styling */
+.product-image {
+  width: auto;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* header and product info layout */
+.product-header-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* product info styling */
+.product-info {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.product-price {
+  font-size: 1.2em;
+  color: #ff8c42;
+  font-weight: bold;
+}
+
+.product-name {
+  font-size: 1.0em;
+  color: #333;
+  text-decoration: none;
+}
+
+.product-name:hover {
+  color: #ff8c42;
+  text-decoration: underline;
+}
+
+/* description */
+.product-description {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* rating and purchases */
+.product-description strong {
+  color: #333;
+}
+
+/* phone styling */
+@media (max-width: 768px) {
+  .product-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+.add-to-cart-button {
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3a5230; 
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-to-cart-button:hover {
+  background-color: #273E14; 
+}
+
+.add-to-cart-button:active {
+  background-color: #95d5b2; 
+  color: #273E14; 
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.add-to-cart-button.clicked {
+  background-color: #95d5b2; 
+  color: #ffffff; 
+  border-color: #6da36b; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-to-purchase {
+  font-family: "Courier New", Courier, monospace; 
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+

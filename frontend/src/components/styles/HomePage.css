@@ -1,0 +1,27 @@
+/* Styles for HomePage.js */
+
+/* home page container */
+.home-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  text-align: center;
+
+  /* TO DO: figure out how to center text more cleanly */
+}
+
+/* header: welcome to zamazon */
+.home-container h1 {
+  color: #806a51;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 2px;
+}
+
+/* subheader: your favorite plant store */
+.home-container h2 {
+    color: #666;
+    margin: 2px;
+  }

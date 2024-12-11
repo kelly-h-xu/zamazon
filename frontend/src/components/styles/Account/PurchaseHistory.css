@@ -1,0 +1,170 @@
+/* purchase-history container */
+.purchase-history-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* heading */
+.purchase-history-container h2 {
+  color: #806a51;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+/* sorting container */
+.purchase-history-container .sort-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.purchase-history-container .sort-container label {
+  color: #555;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.purchase-history-container .sort-container select {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #555;
+  font-size: 1rem;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.purchase-history-container .sort-container select:hover,
+.purchase-history-container .sort-container select:focus {
+  border-color: #4579b0;
+  box-shadow: 0 0 5px rgba(69, 121, 176, 0.5);
+  outline: none;
+}
+
+/* purchase and review list */
+.purchase-history-container ul {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 100%;
+}
+
+.purchase-history-container .purchase-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 0 0 15px 0;
+  padding: 21px;
+  width: 100%;
+}
+
+.purchase-history-container .purchase-card h2 {
+  color: #273e14;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  font-size: 1.1em;
+  margin: 0 0 5px 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  width: fit-content;
+}
+
+.purchase-history-container .purchase-card h2 > * {
+  width: auto;
+}
+
+.purchase-history-container .purchase-card .date-time {
+  color: #273e14;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.purchase-history-container .purchase-card .detail {
+  color: #555;
+}
+
+.purchase-history-container .purchase-card .fulfillment {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.purchase-history-container .purchase-card .fulfillment > * {
+  width: auto;
+}
+
+.purchase-history-container .purchase-card .detail .completed {
+  color: #4579b0;
+  font-weight: bold;
+}
+
+.purchase-history-container .purchase-card .detail .pending {
+  color: #a14141;
+  font-weight: bold;
+}
+
+.purchase-history-container .purchase-card .price {
+  color: #556b2f;
+  font-weight: bold;
+}
+
+.purchase-history-container .purchase-card p {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.purchase-history-container .purchase-card a {
+  color: #4579b0;
+  text-decoration: none;
+}
+
+.purchase-history-container .purchase-card .seller {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8em;
+  font-style: italic;
+  gap: 8px;
+}
+
+.purchase-history-container .purchase-card .seller > * {
+  width: auto;
+}
+
+.purchase-history-container .purchase-card .overview {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.purchase-history-container .purchase-card .overview a {
+  font-weight: bold;
+}
+
+.purchase-history-container .purchase-card .overview span {
+  text-align: right;
+}
+
+/* pagination styles */
+.purchase-history-container .pagination * {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: bold;
+  justify-content: center;
+  width: auto;
+}

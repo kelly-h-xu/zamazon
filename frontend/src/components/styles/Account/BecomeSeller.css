@@ -1,0 +1,23 @@
+.become-seller-container h2 {
+  color: #806a51;
+  margin: 0 0 10px 0;
+}
+
+.become-seller-container p {
+  margin: 3px 0;
+}
+
+.become-seller-container button {
+    background-color: #556b2f;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+    min-width: 70px;
+    padding: 6px;
+    text-align: center;
+    width: fit-content;
+}

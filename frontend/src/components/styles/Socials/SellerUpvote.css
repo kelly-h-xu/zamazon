@@ -1,0 +1,17 @@
+.seller-upvote-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  /* justify-content: center; */
+}
+.seller-upvote-container p {
+  color: #556b2f;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.seller-upvote-container .upvote-button:hover,
+.seller-upvote-container .remove-upvote:hover {
+  cursor: pointer;
+}

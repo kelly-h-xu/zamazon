@@ -1,0 +1,110 @@
+/* Styles for Login.js */
+
+/* login page container */
+.login-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* page header */
+.login-container h1 {
+  color: #806a51;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+/* login form */
+.login-form {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+/* all items within the login form */
+.login-form * {
+  width: 100%;
+}
+
+/* input field */
+.login-form input {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 18px;
+  padding: 12px;
+  transition: border-color 0.3s ease;
+  width: 80%;
+}
+
+/* input fields on click */
+.login-form input:focus {
+  border-color: #666;
+  outline: none;
+}
+
+/* flash message */
+.flash-message {
+  color: #ff6b6b;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+/* login button */
+.login-form button {
+  background-color: #556b2f;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+  width: 40%;
+}
+
+/* login button on hover */
+.login-form button:hover {
+  background-color: #273e14;
+}
+
+/* register link */
+.login-form .register-link {
+  color: #273e14;
+  display: block;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-decoration: none;
+}
+
+/* register link on hover */
+.login-form .register-link:hover {
+  text-decoration: underline;
+}
+
+/* placeholders */
+input::placeholder {
+  color: #a0a0a0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* input */
+input {
+  font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,31 @@
+.seller-rating-summary-details {
+  color: #4b4b4b;
+  font-size: 0.8em;
+  margin: 6px 0;
+  justify-self: center;
+  align-self: center;
+  /* Neutral gray for text */
+}
+
+.seller-rating-summary-details span {
+  color: #556b2f;
+  font-weight: bold;
+
+  /* Slightly darker purple for highlights */
+}
+
+.seller-rating-summary-details p span {
+  margin-left: 5px;
+}
+
+.seller-rating-summary p {
+  align-items: center;
+  display: flex;
+  margin: 2px 0;
+}
+
+.seller-rating-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,124 @@
+.product-page {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.product-page .controls {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1rem; */
+    margin-bottom: 1.5rem;
+}
+
+.product-page .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .product-page .product-list {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+    }
+}
+
+/* media query for even larger screens */
+@media (min-width: 1024px) {
+    .product-page .product-list {
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    }
+}
+
+.product-page .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.product-search {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.product-search .search-form {
+    width: 80%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.product-search .search-form input {
+    width: 100%; 
+    height: 4rem; 
+    padding: 0.5rem; 
+    font-size: 2rem;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    outline: none; 
+    background-color: #f9f9f9; 
+}
+
+.product-search .search-form input{
+    font-size: 2rem;
+}
+
+.product-search .search-form input:hover,
+  .product-search .search-form input:focus {
+    border-color: #ccc;
+  }
+
+/* filter component styling */
+
+.filter-component-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-component-container label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #085e07;
+    text-align: center;
+  }
+  
+  .filter-component-container select {
+    width: 100%;
+    height: 4rem;
+    padding: 0.5rem;
+    font-size: 1.0rem;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    outline: none;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .filter-component-container select:hover,
+  .filter-component-container select:focus {
+    border-color: #ccc;
+  }
+  
+  /* responsive adjustments */
+  @media (max-width: 768px) {
+    .filter-component-container {
+      width: 90%;
+    }
+  
+    .filter-component-container select {
+      font-size: 1.2rem;
+    }
+  
+    .filter-component-container label {
+      font-size: 1.2rem;
+    }
+  }
+  

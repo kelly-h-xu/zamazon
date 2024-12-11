@@ -1,0 +1,27 @@
+/* pagination div */
+.social-container .pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 0;
+
+  /*position at end of flex container*/
+}
+
+/* mui pagination component */
+.social-container .pagination * {
+  color: #000 !important;
+  display: flex;
+  flex-direction: row;
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: bold;
+  width: auto;
+
+  /* override switch to white text */
+}
+
+/* unset blue background */
+.social-container .pagination .Mui-selected {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}

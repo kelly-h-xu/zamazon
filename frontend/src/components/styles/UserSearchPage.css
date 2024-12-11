@@ -1,0 +1,108 @@
+.user-search-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  height: 80vh;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.user-search-container h1 {
+  color: #806a51;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-search-container .search-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+}
+
+.user-search-container .input-actions {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.user-search-container .search-box label {
+  color: #4a4a4a;
+  display: block;
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.user-search-container .search-box input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-bottom: 8px;
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+
+.user-search-container .search-box button {
+  background-color: #806a51;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  font-weight: bold;
+  height: fit-content;
+  justify-self: center;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.user-search-container .search-box button:hover {
+  background-color: #6b553f;
+}
+
+.user-search-container .search-box a {
+  color: #4579b0;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.user-search-container .search-box a:hover {
+  text-decoration: underline;
+}
+
+.user-search-container .error-message {
+  color: #d9534f;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.user-search-container .user-found {
+    text-align: left;
+}
+
+.user-search-container .user-found p {
+    margin: 5px;
+    color: #555;
+}
+
+.user-search-container .user-found p:first-of-type {
+    margin: 0px 5px 15px 5px;
+    font-size: 0.7em;
+    font-style: italic;
+    color: #806a51;
+    text-align: center;
+}
+

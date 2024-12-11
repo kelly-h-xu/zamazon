@@ -1,0 +1,60 @@
+.order-container .product-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 0 15px 0;
+  min-width: fit-content;
+  padding: 15px;
+  width: 100%;
+}
+
+.order-container p {
+  display: inline;
+  margin: 2px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  width: fit-content;
+  font-size: 0.8em;
+}
+
+.order-container p > * {
+    width: fit-content;
+}
+
+/* pagination styles */
+.order-container .pagination * {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: bold;
+  justify-content: center;
+  width: auto;
+}
+
+.order-container .product-name {
+    font-weight: bold;
+    color: #556b2f;
+    margin-top: 0px;
+    font-size: 1.1em;
+}
+
+.order-container .product-name:hover {
+    font-weight: bold;
+    color: #556b2f;
+    text-decoration: none;
+}
+
+.order-container .date-time {
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.order-container .inventory-container-button {
+    margin-top: 10px;
+}

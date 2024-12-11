@@ -1,0 +1,119 @@
+/* Format the social container */
+.social-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles for no reviews*/
+.social-container .empty {
+  color: #666;
+  font-style: italic;
+  margin: 0 0 10px 10px;
+}
+
+/* Stylying for "product/seller reviews" text */
+.social-container h2 {
+  color: #806a51;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+/* social container lists */
+.social-container ul {
+  list-style-type: none;
+  margin: 0 0 18px 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* social container list items */
+.social-container ul li {
+  color: #333;
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+/* review item card */
+.social-container .review-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 0 0 15px 0;
+  padding: 15px;
+  width: 100%;
+
+  /* bottom margin */
+}
+
+/* Review item headers */
+.social-container .review-item strong {
+  color: #556b2f;
+  margin-bottom: 8px;
+
+  /* text-decoration: underline;
+  text-underline-offset: 4px; */
+}
+.social-container .review-item strong:hover {
+  text-decoration: none;
+}
+.social-container .seller-name,
+.social-container .product-name {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.social-container .seller-name a,
+.social-container .product-name a {
+  color: #4579b0;
+  text-decoration: none;
+}
+
+/* rating stars */
+.social-container .review-item .stars {
+  color: gold;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+
+  /* makes bigger */
+}
+
+/* review comment */
+.social-container .review-item .comment {
+  line-height: 1.5;
+}
+
+/* container with buttons to modify/delete reviews */
+.social-container .review-action-container,
+.social-container .review-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-container .review-action-container *:last-child,
+.social-container .review-actions *:last-child {
+  background-color: #a14141;
+}
+
+.social-container .review-item button {
+  background-color: #4579b0;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 6px;
+  text-align: center;
+  width: fit-content;
+}
+
+.social-container .product-reviews {
+  width: 100%;
+}

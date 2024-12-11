@@ -1,0 +1,54 @@
+/* CONTAINER / COMPONENT / TEXT STYLES */
+
+.review-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* styles the input sections */
+.review-form-container p {
+  margin: 2px 0;
+  font-size: 0.9em;
+}
+
+/* styles for rating input and comment text area */
+.review-form-container input,
+.review-form-container textarea {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #555;
+  font-size: 0.9em;
+  height: 100%;
+  padding: 4px;
+  transition: border-color 0.3s ease;
+  width: auto;
+}
+
+/* comment text area sizing */
+.review-form-container textarea {
+  min-height: 50px;
+  margin: 8px 0;
+}
+
+.review-form-container p.comment {
+  display: flex;
+  flex-direction: column;
+}
+
+/* BUTTON STYLES  */
+.review-form-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.review-form-button-container .submit-button {
+  background-color: #4579b0;
+}
+
+.review-form-button-container .cancel-button {
+  background-color: #a14141;
+}
+
+
