@@ -3,4 +3,7 @@ Looking for some Lush Dill, Graceful Lettuce, or Royal Potatoes? Meet zamazon- a
 
 Contributors: Ally Doss, Hala Mohammed, Bea Radtke, Yulia Savine, Kelly Xu
 
+Demo Video: https://drive.google.com/file/d/1b7sm24UK0kPR2jic4XU9iGBIbSOenqKg/view?usp=sharing
+
 <img width="481" alt="image" src="https://github.com/user-attachments/assets/0d2b84c9-b3f2-4c48-8f75-95e5938d78a2" />
+
